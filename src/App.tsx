@@ -1,8 +1,11 @@
-// C = Container
+
 import * as C from "./App.styles";
 import { useState } from "react";
 import { Item } from "./types/Item";
 import { ListItem } from "./components/ListItem";
+import { AddArea } from './components/AddArea'
+
+
 const App = () => {
             //setList
   const [list] = useState<Item[]>([
@@ -15,6 +18,7 @@ const App = () => {
       <C.Area>
         <C.Header> Task List </C.Header>
 
+        <AddArea/> 
         {/* área de adicionar nova tarefa */}
 
         {/* Lista de tarefas */}
