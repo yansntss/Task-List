@@ -11,6 +11,7 @@ export const Container = styled.div`
 
     .image {
         margin-right: 5px;
+        
     }
 
     input {
